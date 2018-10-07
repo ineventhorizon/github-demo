@@ -20,6 +20,7 @@ div.gallery img{
 div.gallery p.desc{
     padding: 5%;
     text-align: center;
+    font-size: 120%;
     font-family: 'Varela Round', sans-serif;
 }
 div.gallery img:hover{
