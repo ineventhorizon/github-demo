@@ -1,0 +1,30 @@
+body{
+    
+    background: #076585;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fff, #076585);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fff, #076585); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+div.gallery{
+    margin: 1%;
+    border: 2em solid slateblue;
+    float: left;
+    width: 18%;
+}
+div.gallery img{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6.6%;
+    display: block;
+}
+div.gallery p.desc{
+    padding: 5%;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+}
+div.gallery img:hover{
+    border: 0.5em dotted lightcyan;
+}
+div.gallery p.desc:hover{
+    border: 0.2em dashed darkslateblue;
+}
